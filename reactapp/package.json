@@ -12,11 +12,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "jest": {
-    "setupFiles": [
-      "/setupTests.js"
-    ]
-  },
   "scripts": {
     "start": "PORT=8081 react-scripts start",
     "build": "react-scripts build",
