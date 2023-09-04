@@ -13,9 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "jest": {
-    "setupFiles": [
-      "src/setupTests.js"
-    ]
+    "setupTestFrameworkScriptFile": "src/setupTests.js"
   },
   "scripts": {
     "start": "PORT=8081 react-scripts start",
