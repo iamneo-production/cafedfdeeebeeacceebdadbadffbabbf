@@ -13,8 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "jest": {
-    "setupTests": [
-      "src/stopwatch.test.js"
+    "setupFiles": [
+      "src/setupTests.js"
     ]
   },
   "scripts": {
